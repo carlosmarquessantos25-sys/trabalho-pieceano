@@ -1,0 +1,74 @@
+body {
+    background: rgb(0, 84, 84);
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    font-family: "DM Sans", sans-serif;
+}
+
+header {
+    text-align:center;
+    font-size: 36px;
+    padding:20px;
+}
+
+.main-video {
+    background-image: linear-gradient(rgb(0, 84, 84), black);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-thumb img {
+    border-radius: 20px;
+    height: 300px;
+}
+
+.main-thumb img:hover {
+    opacity: 0.5;
+}
+
+.todos-videos img {
+    height: 200px;
+}
+
+.todos-videos img:hover {
+    opacity: 0.25;
+}
+
+.categoria {
+    background: black;
+    padding: 20px;
+}
+
+.info-video {
+    text-align: center;
+}
+
+.carrosel {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    scrollbar-width: thin;
+    scrollbar-color: gray black;
+}
+
+.main-texto {
+    margin-right: 5%;
+    width: 40%;
+    text-align: right;
+}
+
+.main-texto h1 {
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+
+.t-desc-main {
+    margin-top: 0px;
+    opacity: 0.5;
+    font-size: 20px;
+    font-weight: bold;
+}
